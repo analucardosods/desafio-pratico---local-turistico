@@ -46,7 +46,6 @@ margin-top: 10px;
 }
 
 
-
 #destinos h3 {
   color: #E1624F;
   text-transform: uppercase;
@@ -66,14 +65,15 @@ margin-top: 10px;
   color: #333333;
   line-height: 1.3;
   max-width: 1000px;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 
 .destino {
   display: flex;
   flex-direction: column;
-  align-items: flex-start
-  text-align: left
+  align-items: flex-start;
+  text-align: left;
+  margin-bottom: 30px;
 }
 
 .destino img {
@@ -90,6 +90,8 @@ margin-top: 10px;
 .destino p {
   max-width: 800px;
   margin-top: 10px;
+  margin-bottom: 10px;
+  line-height: 1.4;
 }
 
 footer {
@@ -97,4 +99,32 @@ footer {
   margin-top: 60px;
   font-size: 14px;
   color: #333333;
+}
+
+.destino-info {
+font-weight: bold;
+margin-top: 8px;
+margin-bottom: 0;
+} 
+
+.destino p: :first-of-type {
+margin-bottom: 10px;
+}
+
+.destino p: :last-of-type {
+margin-bottom: 30px;
+}
+
+
+.cor-azul {
+  color: #0C51A7;
+}
+.cor-roxo {
+  color: #591B98;
+}
+.cor-rosa {
+  color: #E5245E;
+}
+.cor-laranja {
+  color: #E95E10;
 }
