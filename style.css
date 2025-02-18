@@ -2,6 +2,7 @@
 padding: 88px 80px;
 }
 
+
 #headline-container h3{
   color: #E1624F;
   text-transform: uppercase;
@@ -19,6 +20,20 @@ img {
 border-radius: 28px;
 }
 
+#description-image p {
+  text-align: center;
+  width: 100%;  
+  display: block;
+  height: auto;
+  font-size: 20px;
+  font-style: italic;
+  color: #333333;
+}
+
+#description-image img {
+  width: 100%;
+  margin-top: 10px;
+}
 
 :root {
   font-family: "Open Sans", serif;
